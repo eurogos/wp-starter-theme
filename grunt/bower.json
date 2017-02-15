@@ -1,0 +1,24 @@
+{
+  "name": "wp-starter-theme",
+  "description": "A starter template with grunt & foundation for general WP Theme development",
+  "main": "gruntfile.js",
+  "authors": [
+    "JMGosling"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "WordPress",
+    "Theme"
+  ],
+  "homepage": "https://github.com/eurogos/wp-starter-theme",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "^6.3.0"
+  }
+}

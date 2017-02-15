@@ -1,0 +1,90 @@
+/*
+SCSS Partial: _general_styles.scss
+Author: JMGosling
+Description:
+Version:        1.0.0
+*/
+
+*, *:before, *:after {
+	@include box-sizing(border-box);
+}
+
+html {
+	height: 100%;
+	min-height: 100%;
+	font-size: 16px;
+    overflow-x: hidden;
+}
+
+body {
+	min-height: 100%;
+	color: $color-black;
+	background-color: $color-white;
+	line-height: 1rem;
+	@include font-OpenSansRegular;
+}
+
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: auto;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    -moz-osx-font-smoothing: grayscale;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button,
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+//Selection/Hightlight Color
+::selection {
+  background: $color-red; // WebKit/Blink Browsers
+  color: $color-white;
+}
+::-moz-selection {
+  background: $color-red; // Gecko Browsers
+  color: $color-white;
+}
+
+*:focus {
+    outline: 0;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: $color-black;
+}
+
+li {
+	list-style: none;
+	text-decoration: none;
+}
+
+.row-full {
+	max-width: 100%;
+}
+
+h2, h3 {
+	color: $color-black;
+	@include font-OpenSansRegular;
+	font-size: 2.0625rem;
+	line-height: 2.375rem;
+}
+
+h3 {
+	font-size: 1.0625rem;
+	line-height: 1.25rem;
+}
+
+b {
+	font-weight: normal;
+	font-style: normal;
+	color: $color-red;
+}

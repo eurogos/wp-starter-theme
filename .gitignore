@@ -17,3 +17,5 @@ wp-content/plugins/hello.php
 /sitemap.xml.gz
 
 /grunt/node_modules/
+/grunt/bower_components/
+/grunt/.sass-cache/

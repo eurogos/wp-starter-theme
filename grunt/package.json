@@ -1,7 +1,7 @@
 {
   "name": "wp-starter-theme",
   "version": "1.0.0",
-  "description": "a grunt file supporting build/dist workflows for wp theme development",
+  "description": "A starter template with grunt & foundation for general WP Theme development",
   "main": "gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
