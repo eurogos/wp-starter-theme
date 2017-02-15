@@ -112,7 +112,7 @@ module.exports = function(grunt) {
         options: {
           sourcemap: 'none',
           style: 'expanded',
-          loadPath: ['./bower_components/foundation/scss', './bower_components/bourbon/app/assets/stylesheets']
+          loadPath: ['./bower_components/foundation-sites/scss']
         }
       }
     },
