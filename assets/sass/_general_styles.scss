@@ -70,21 +70,3 @@ li {
 .row-full {
 	max-width: 100%;
 }
-
-h2, h3 {
-	color: $color-black;
-	@include font-OpenSansRegular;
-	font-size: 2.0625rem;
-	line-height: 2.375rem;
-}
-
-h3 {
-	font-size: 1.0625rem;
-	line-height: 1.25rem;
-}
-
-b {
-	font-weight: normal;
-	font-style: normal;
-	color: $color-red;
-}
